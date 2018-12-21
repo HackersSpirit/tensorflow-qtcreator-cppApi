@@ -8,16 +8,16 @@ using tensorflow_cpp api.
 # Pre-requisites:
 1. Tensorflow Binary(Here 1.8 binary have been used):
 Pre-built tensorflow binary can be downloaded from the following location:
-https://github.com/fo40225/tensorflow-windows-wheel/tree/master/1.8.0/cpp
-Note:
-Here i have used binary build using sse2 as i was finding linking issues in avx2 for my system
+https://github.com/fo40225/tensorflow-windows-wheel/tree/master/1.8.0/cpp.
+<br>Note:
+<br>Here i have used binary build using sse2 as i was finding linking issues in avx2 for my system
 which i have to still verify.
 
 2. Tensorflow Model (.pb):
 Tensorflow model trained in python have used. The model was initially build using Keras and then converted into .pb
-for using it in tensorflow.Please find the github repos for the following.
-Note: 
-Note the input and output node of your model for giving input to the program
+for using it in tensorflow.
+<br>Note: 
+<br>Note the input and output node of your model for giving input to the program
 
 3. Opencv-Release files:
 Link the opencv release lib files to the program.
@@ -27,9 +27,9 @@ The tensorflow lib is also built in release mode.
 Inorder to run the program we have to use MSVC compiler which have also been defined in the program.
 
 # Steps to Run the program:
-Open the program in qt-creator 
-Give the path of image folder and tensorflow model 
-Build the program
+Open the program in qt-creator. 
+Give the path of image folder and tensorflow model. 
+Build the program.
 As this program is build in release mode include the necessary dll files in the release folder.
 
 
