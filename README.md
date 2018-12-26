@@ -26,6 +26,8 @@ The tensorflow lib is also built in release mode.
 4. MSVC compiler:
 Inorder to run the program we have to use MSVC compiler which have also been defined in the program.
 
+5. Please refer the pro file for more details.
+
 # Steps to Run the program:
 Open the program in qt-creator. 
 Give the path of image folder and tensorflow model. 
