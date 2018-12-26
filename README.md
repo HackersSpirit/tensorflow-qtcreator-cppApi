@@ -32,6 +32,6 @@ Inorder to run the program we have to use MSVC compiler which have also been def
 Open the program in qt-creator. 
 Give the path of image folder and tensorflow model. 
 Build the program.
-As this program is build in release mode include the necessary dll files in the release folder.
+As this program is build in release mode include the necessary dll files in the release folder.<br>
 Note: Please copy paste all the necessary dll files required in the release folder during running the program
 
