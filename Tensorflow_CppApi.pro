@@ -17,8 +17,10 @@ SOURCES += main.cpp
 # deprecated API in order to know how to port your code away from it.
 DEFINES += QT_DEPRECATED_WARNINGS
 
+# Provide the link to the libtensorflow.dll file
 win32: LIBS += -L$$PWD/../tensorflow_1.8/lib/ -ltensorflow
 
+# Link to the include files
 INCLUDEPATH += $$PWD/../tensorflow_1.8/lib/include
 DEPENDPATH += $$PWD/../tensorflow_1.8/lib/include
 
