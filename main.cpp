@@ -78,9 +78,9 @@ int main(int argc, char *argv[])
                 const float* source_G = source_pixel + 1;
                 const float* source_R = source_pixel + 2;
 
-                input_tensor_mapped(0, y, x, 0) = *source_R;
+                input_tensor_mapped(0, y, x, 0) = *source_B;
                 input_tensor_mapped(0, y, x, 1) = *source_G;
-                input_tensor_mapped(0, y, x, 2) = *source_B;
+                input_tensor_mapped(0, y, x, 2) = *source_R;
             }
         }
         double t = (double)getTickCount();
